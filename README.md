@@ -16,8 +16,7 @@ sudo pip install awscli
 Then install the `whereami` script:
 
 ```bash
-wget -q --output-document whereami https://raw.githubusercontent.com/rhyeal/whereami
-/master/whereami && chmod a+x whereami && sudo mv whereami /usr/bin/whereami
+wget -q --output-document whereami https://raw.githubusercontent.com/rhyeal/whereami/master/whereami && chmod a+x whereami && sudo mv whereami /usr/bin/whereami
 ```
 
 If you get an error while running, ensure your user/role has the following IAM permission:
